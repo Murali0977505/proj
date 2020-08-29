@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Quiz</title>
+    </head>
+    <body>
+        <h1>The Question is: {{qn|safe}}</h1>
+        <form action="two" method="GET">
+            <input type="radio" id="A" name="useropt" value="A">
+            <label for="A">{{optA|safe}}</label><br>
+            <input type="radio" id="B" name="useropt" value="B">
+            <label for="B">{{optB|safe}}</label><br>
+            <input type="radio" id="C" name="useropt" value="C">
+            <label for="C">{{optC|safe}}</label><br>
+            <input type="radio" id="D" name="useropt" value="D">
+            <label for="D">{{optD|safe}}</label><br><br>
+            <input type="submit" name="SubmitAnswer" value="submitAnswer">
+        </form>
+    </body>
+</html>

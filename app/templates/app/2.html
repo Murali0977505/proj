@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Testing passing of data</title>
+    </head>
+    <body>
+        <h1>
+            Your answer is: {{key|safe}} 
+        </h1><br>
+        <h1>
+            Your attempts are {{qnCount|safe}} and the score is {{score|safe}}
+        </h1><br>
+        <form action="three" method="GET">
+            <input type="submit" name="Quit" value="quit">
+            <input type="submit" name="PlayAgain" value="playAgain">
+        </form>
+        
+    </body>
+</html>
